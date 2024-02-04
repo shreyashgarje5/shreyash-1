@@ -1,0 +1,136 @@
+/* App.css */
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+header {
+  background-color: #3498db;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+input {
+  padding: 10px;
+  font-size: 18px;
+  width: 250px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.stock-info {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.stock-info h2 {
+  font-size: 28px;
+  margin: 0;
+}
+
+.stock-info p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Customize chart container size if needed */
+.chart-container .apexcharts-canvas {
+  max-width: 800px;
+}
+
+/* Candlestick chart style */
+.apexcharts-tooltip {
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border: 1px solid #666;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: left;
+}
+
+.apexcharts-xaxistooltip-title {
+  font-size: 18px;
+}
+
+.apexcharts-xaxistooltip-text {
+  font-size: 16px;
+}
+
+.apexcharts-yaxistooltip {
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border: 1px solid #666;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: left;
+}
+
+.apexcharts-tooltip-series-group {
+  margin: 5px 0;
+}
+
+.apexcharts-tooltip-series-group:last-child {
+  margin-bottom: 0;
+}
+
+.apexcharts-tooltip-series {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.apexcharts-tooltip-marker {
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+.apexcharts-tooltip-title {
+  font-weight: bold;
+}
+
+.apexcharts-gridline {
+  stroke: #ccc;
+  stroke-dasharray: 4;
+}
+
+.apexcharts-xaxis-label {
+  font-size: 14px;
+  color: #333;
+}
+
+.apexcharts-yaxis-label {
+  font-size: 14px;
+  color: #333;
+}
+
+.apexcharts-legend-text {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Add more styles for other elements as needed */
+
